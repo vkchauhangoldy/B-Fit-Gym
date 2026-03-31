@@ -160,8 +160,12 @@ h1 span, h2 span, .logo span {
 }
 
 .footer-logo {
-    height: 40px !important;
-    opacity: 0.8;
+    height: 70px !important;
+    width: 70px !important;
+    border-radius: 50%;
+    object-fit: cover;
+    opacity: 0.9;
+    border: 2px solid var(--primary-color);
 }
 
 .nav-links {
