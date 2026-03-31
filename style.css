@@ -151,9 +151,12 @@ h1 span, h2 span, .logo span {
 }
 
 .logo img {
-    height: 50px;
-    width: auto;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    object-fit: cover;
     display: block;
+    border: 2px solid var(--primary-color);
 }
 
 .footer-logo {
